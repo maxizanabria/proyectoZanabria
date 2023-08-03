@@ -1,0 +1,13 @@
+
+
+.carrito{
+  list-style: none;
+  display: flex;
+  
+  background-color: blueviolet;
+
+}
+li {
+  list-style: none;
+  display: flex;
+}
