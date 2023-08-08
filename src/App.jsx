@@ -1,9 +1,7 @@
 
 import './App.css' ;
 import Navbar from './componentes/Navbar';
-import CarWidget from './componentes/CarWidget';
-import itemListConteiner from "./componentes/itemListConteiner";
-
+import ItemlistConteiner from './componentes/itemListConteiner';
 
 function App() {
 
@@ -11,12 +9,14 @@ function App() {
     
     <>
     <Navbar/>
-    <CarWidget/>
-    <itemListConteiner/>
+    <ItemlistConteiner/>
+    
     
     
     </>
   )
 }
+
+
 
 export default App
