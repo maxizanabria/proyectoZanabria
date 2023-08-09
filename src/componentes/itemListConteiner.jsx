@@ -3,15 +3,19 @@ import React from 'react'
 
 
 
-const ItemlistConteiner = () => {
+const ItemlistConteiner = ({nombre, precio, descripcion}) => {
 
     
     
 
     return(
         <>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint alias atque ratione odit, libero quaerat? Quod quas quibusdam nemo rerum. Aliquid asperiores dolor adipisci, eos quae corrupti qui beatae possimus.</p>
-
+        <div>
+            <h3>Nombre: {nombre} </h3>
+            <p>Precio: {precio} </p>
+            <p>Descripcion: {descripcion} </p>
+            <hr />
+        </div>
 
         </>
     )
