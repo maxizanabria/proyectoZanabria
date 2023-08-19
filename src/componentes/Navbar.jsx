@@ -1,6 +1,6 @@
 import React from 'react'
 import logo1 from "../assets/img/logo1.png"
-import CarWidget from './CarWidget'
+import CarWidget from './carWidget/CarWidget'
 
 
 

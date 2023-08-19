@@ -1,0 +1,73 @@
+[
+    {
+        "id": 1,
+        "name": "Optamox duo 1g",
+        "AccionTerapeutica": "Antibiotico",
+        "Laboratorio": "Roemmers",
+        "Tipo": "bajo receta",
+        "precio": 4600
+    },
+    {
+        "id": 2,
+        "name": "Optamox duo ",
+        "AccionTerapeutica": "Antibiotico",
+        "Laboratorio": "Roemmers",
+        "Tipo": "bajo receta",
+        "precio": 3100
+    },
+    {
+        "id": 3,
+        "name": "Acemuk 600",
+        "AccionTerapeutica": "Expectorante y mucolitic",
+        "Laboratorio": "Invest",
+        "Tipo": "bajo recet",
+        "precio": 3500
+    },
+    {
+        "id": 4,
+        "name": "Qura plus",
+        "image": "imagen",
+        "AccionTerapeutica": "Antigripa",
+        "Laboratorio": "Bernab",
+        "Tipo": "bajo recet",
+        "precio": 1500
+    },
+    {
+        "id": 5,
+        "name": "Actron 400",
+        "image": "imagen",
+        "AccionTerapeutica": "Analgesico, antipiretico y antitinflamatorio",
+        "Laboratorio": "bayer",
+        "Tipo": "Venta Libre",
+        "precio": 899
+    },
+    {
+        "id": 6,
+        "name": "Actron 600",
+        "image": "imagen",
+        "AccionTerapeutica": "Analgesico, antipiretico y antitinflamatorio",
+        "Laboratorio": "bayer",
+        "Tipo": "Venta Libre",
+        "precio": 1200
+    },
+    {
+        "id": 7,
+        "name": "Tavinex Compuesto",
+        "image": "imagen",
+        "AccionTerapeutica": "Antigripal",
+        "Laboratorio": "Biosintex",
+        "Tipo": "Venta libre",
+        "precio": 1400
+    },
+    {
+        "id": 8,
+        "name": "Novozitron",
+        "image": "imagen",
+        "AccionTerapeutica": "Antibiotico",
+        "Laboratorio": "Biosintex",
+        "Tipo": "bajo receta",
+        "precio": 6500
+    }
+
+
+]
