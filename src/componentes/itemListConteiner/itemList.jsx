@@ -1,19 +1,12 @@
 
-const itemList = ({ productos }) => {
+const ItemList = ({ producto }) => {
     return (
         <div>
-            <h1>Catalogo</h1>
-            {
-                productos.lenght > 0 && productos.map((productos) => {
-                    return (
-                        <item producto={producto}/>
-                    )
-                })
-            }
-
-             
+            <h2>{producto.name}</h2>
+            <p>Acción terapeutica: {producto.AccionTerapeutica}</p>
+            <p>Precio: ${producto.precio}</p>
         </div>
     )
 }
 
-export default itemList ; 
+export default ItemList ; 

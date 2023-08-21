@@ -12,9 +12,7 @@ function App() {
     
     <>
     <Navbar/>
-    <ItemlistConteiner/>
-    <ItemlistConteiner/>
-    
+    <ItemlistConteiner/>  
     
     </>
   )

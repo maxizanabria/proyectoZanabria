@@ -1,9 +1,9 @@
-import data from "./data/productos.sjon";
+import data from '../../data/productos.json';
 
 const pedirProductos = () => {
-    return new Promise ((resolve, rejected) => {
-        resolve (data)
-    })
-}
+    return new Promise ((resolve, reject) => {
+        resolve (data);
+    });
+};
 
 export default pedirProductos;

@@ -1,6 +1,6 @@
 import {useState, useEffect} from 'react';
-import pedirProductos from './pedirProductos.js';
-import itemList from './itemList.';
+import pedirProductos from './pedirPorductos';
+import ItemList from './itemList';
 
 
  
@@ -18,10 +18,10 @@ const ItemlistConteiner = () => {
     return(
         <>
         <div>
-            <itemList productos={productos}/>
-         
+            {productos.map((producto) => (
+                <ItemList key={producto.id} producto={producto} />
+            ))}
         </div>
-
         </>
     )
 }
