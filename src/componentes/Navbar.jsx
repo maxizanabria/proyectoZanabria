@@ -16,7 +16,7 @@ const Navbar = () => {
              <img className='logo1' src={logo1} alt="logo" />
             
             
-            <ul><button><Link to="/productos" > Productos  </Link> </button> </ul> 
+              
             <ul><button><Link to="/productos/Analgesicos" >Analgesicos  </Link></button> </ul> 
             <ul><button><Link to="/productos/Antibioticos" >Antibioticos </Link></button> </ul>
             <ul><button><Link to="/productos/Retrovirales" >Retrovirales  </Link></button> </ul> 

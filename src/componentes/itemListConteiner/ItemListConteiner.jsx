@@ -8,15 +8,22 @@ import { pedirProductos } from './pedirProductos';
  
 const ItemlistConteiner = () => {
 
-    const [productos, setItem] = useState([]);
-    
+    const [productos, setProductos] = useState([]);
+    const categoria = useParams().categoria;
+    console.log(categoria);
+ 
 
     useEffect(() => {
         pedirProductos()
         .then((res) => {
-            setItem(res); 
+            if (categoria){
+                setProductos(res.filter((prod) => productos.categoria === categoria) ); 
+            } else {
+                setProductos(res);
+            }
+           
         })
-    }, [])  
+    }, [categoria])  
 
     return(
         <>
