@@ -1,17 +1,20 @@
 import {useState, useEffect} from 'react';
-import pedirProductos from './pedirPorductos';
 import ItemList from './itemList';
+import { useParams } from 'react-router-dom';
+import { pedirProductos } from './pedirProductos';
+
 
 
  
 const ItemlistConteiner = () => {
 
-    const [productos, setProductos] = useState([]);
+    const [productos, setItem] = useState([]);
+    
 
     useEffect(() => {
         pedirProductos()
         .then((res) => {
-            setProductos(res);
+            setItem(res); 
         })
     }, [])  
 
@@ -21,6 +24,7 @@ const ItemlistConteiner = () => {
             {productos.map((producto) => (
                 <ItemList key={producto.id} producto={producto} />
             ))}
+          
         </div>
         </>
     )

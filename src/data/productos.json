@@ -2,14 +2,17 @@
     {
         "id": 1,
         "name": "Optamox duo 1g",
+        "image": "imagen",
         "AccionTerapeutica": "Antibiotico",
         "Laboratorio": "Roemmers",
         "Tipo": "bajo receta",
         "precio": 4600
     },
+    
     {
         "id": 2,
         "name": "Optamox duo ",
+        "image": "imagen",
         "AccionTerapeutica": "Antibiotico",
         "Laboratorio": "Roemmers",
         "Tipo": "bajo receta",
@@ -18,9 +21,10 @@
     {
         "id": 3,
         "name": "Acemuk 600",
+        "image": "imagen",
         "AccionTerapeutica": "Expectorante y mucolitic",
-        "Laboratorio": "Invest",
-        "Tipo": "bajo recet",
+        "Laboratorio": "Investi",
+        "Tipo": "bajo receta",
         "precio": 3500
     },
     {
@@ -28,8 +32,8 @@
         "name": "Qura plus",
         "image": "imagen",
         "AccionTerapeutica": "Antigripa",
-        "Laboratorio": "Bernab",
-        "Tipo": "bajo recet",
+        "Laboratorio": "Bernabo",
+        "Tipo": "bajo receta",
         "precio": 1500
     },
     {

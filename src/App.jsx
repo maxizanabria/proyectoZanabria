@@ -2,6 +2,8 @@
 import './App.css' ;
 import Navbar from './componentes/Navbar';
 import ItemlistConteiner from './componentes/itemListConteiner/ItemListConteiner';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+
 
 
 
@@ -11,8 +13,27 @@ function App() {
   return (
     
     <>
-    <Navbar/>
-    <ItemlistConteiner/>  
+     <BrowserRouter>
+    
+    
+      <Navbar/>
+
+      <Routes>
+        <Route path="/" element={<ItemlistConteiner/> } />
+        
+    
+        
+
+
+
+      </Routes>
+
+     
+        
+
+
+   
+    </BrowserRouter>
     
     </>
   )

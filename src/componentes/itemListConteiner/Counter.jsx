@@ -1,6 +1,6 @@
 import React from 'react';
-
 import useCount from './useCount';
+
 
 const Counter = () => {
   const [contador, decrement, increment] = useCount(1, 0, 10);
@@ -8,7 +8,7 @@ const Counter = () => {
   return (
     <div>
       <button onClick={decrement}>-</button>
-      Counter {contador}
+        {contador}
       <button onClick={increment}>+</button>
     </div>
   );
