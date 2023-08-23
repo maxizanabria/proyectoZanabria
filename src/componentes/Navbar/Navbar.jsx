@@ -1,15 +1,17 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
+
 
 const Navbar = () => {
   return (
    <nav className='navbar'>
-    <li><a href="" className='logo'><h1> Farmax </h1> </a></li>
-    <li><a className="menu-link"href="#"></a>Inicio</li>
-    <li><a className="menu-link"href="#"></a>Nosotros</li>
-    <li><a className="menu-link"href="#"></a>Productos</li>
-    <li><a className="menu-link"href="#"></a>Contacto</li>
-
-
+    <Link to="/" className='logo'><h1> Farmax </h1> </Link>
+    <button><li><Link className="menu-link" to="/" > Nosotros</Link> </li></button>
+    <button><li><Link className="menu-link" to="/productos" > Productos </Link></li></button>
+    <button><li><Link className="menu-link" to="/productos/antibioticos" > Antibioticos </Link></li></button>
+    <button><li><Link className="menu-link" to="/productos/antialergicos" > Antialergicos </Link></li></button>
+    <button><li><Link className="menu-link" to="/productos/analgesicos" > Analgesicos </Link></li></button>
+  
    </nav>
   )
 }
