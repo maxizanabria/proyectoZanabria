@@ -1,77 +1,153 @@
 [
     {
         "id": 1,
-        "name": "Optamox duo 1g",
-        "image": "imagen",
-        "Categoria": "Antibiotico",
-        "Laboratorio": "Roemmers",
-        "Tipo": "bajo receta",
+        "titulo": "Optamox duo 1g",
+        "descripcion": "imagen",
+        "categoria": "Antibioticos",
+        "imagen": "./assets/img/01.jpg",
         "precio": 4600
     },
     
     {
         "id": 2,
-        "name": "Optamox duo ",
-        "image": "imagen",
-        "Categoria": "Antibiotico",
-        "Laboratorio": "Roemmers",
-        "Tipo": "bajo receta",
+        "titulo": "Optamox duo ",
+        "descripcion": "imagen",
+        "categoria": "Antibioticos",
+        "imagen": "",
         "precio": 3100
     },
     {
         "id": 3,
-        "name": "Acemuk 600",
-        "image": "imagen",
-        "Categoria": "Expectorante y mucolitico",
-        "Laboratorio": "Investi",
-        "Tipo": "bajo receta",
+        "titulo": "Acemuk 600",
+        "descripcion": "imagen",
+        "categoria": "mucoliticos",
+        "imagen": "",
         "precio": 3500
     },
     {
         "id": 4,
-        "name": "Qura plus",
-        "image": "imagen",
-        "Categoria": "Antigripal",
-        "Laboratorio": "Bernabo",
-        "Tipo": "bajo receta",
+        "titulo": "Qura plus",
+        "descripcion": "imagen",
+        "categoria": "Antigripal",
+        "imagen": "",
         "precio": 1500
     },
     {
         "id": 5,
-        "name": "Actron 400",
-        "image": "imagen",
-        "Categoria": "Analgesico, antipiretico y antitinflamatorio",
-        "Laboratorio": "bayer",
-        "Tipo": "Venta Libre",
+        "titulo": "Actron 400",
+        "descripcion": "imagen",
+        "categoria": "Analgesicos",
+        "imagen": "",
         "precio": 899
     },
     {
         "id": 6,
-        "name": "Actron 600",
-        "image": "imagen",
-        "Categoria": "Analgesico, antipiretico y antitinflamatorio",
-        "Laboratorio": "bayer",
-        "Tipo": "Venta Libre",
+        "titulo": "Actron 600",
+        "descripcion": "imagen",
+        "categoria": "Analgesicos",
+        "imagen": "",
         "precio": 1200
     },
     {
         "id": 7,
-        "name": "Tavinex Compuesto",
-        "image": "imagen",
-        "Categoria": "Antigripal",
-        "Laboratorio": "Biosintex",
-        "Tipo": "Venta libre",
+        "titulo": "Tavinex Compuesto",
+        "descripcion": "imagen",
+        "categoria": "Antigripal",
+        "imagen": "",
         "precio": 1400
     },
     {
         "id": 8,
-        "name": "Novozitron",
-        "image": "imagen",
-        "Categoria": "Antibiotico",
-        "Laboratorio": "Biosintex",
-        "Tipo": "bajo receta",
+        "titulo": "Novozitron",
+        "descripcion": "imagen",
+        "categoria": "Antibioticos",
+        "imagen": "",
+        "precio": 6500
+    },
+    {
+        "id": 9,
+        "titulo": "Optamox duo 1g",
+        "descripcion": "imagen",
+        "categoria": "Antibioticos",
+        "imagen": "",
+        "precio": 4600
+    },
+
+
+
+    {
+        "id": 10,
+        "titulo": "Novozitron",
+        "descripcion": "imagen",
+        "categoria": "Antibioticos",
+        "imagen": "",
+        "precio": 6500
+    },
+    {
+        "id": 11,
+        "titulo": "Novozitron",
+        "descripcion": "imagen",
+        "categoria": "Antibioticos",
+        "imagen": "",
+        "precio": 6500
+    },
+    {
+        "id": 12,
+        "titulo": "Novozitron",
+        "descripcion": "imagen",
+        "categoria": "Antibioticos",
+        "imagen": "",
+        "precio": 6500
+    },
+    {
+        "id": 13,
+        "titulo": "Novozitron",
+        "descripcion": "imagen",
+        "categoria": "Antibioticos",
+        "imagen": "",
+        "precio": 6500
+    },
+    {
+        "id": 14,
+        "titulo": "Novozitron",
+        "descripcion": "imagen",
+        "categoria": "Antibioticos",
+        "imagen": "",
+        "precio": 6500
+    },
+    {
+        "id": 15,
+        "titulo": "Novozitron",
+        "descripcion": "imagen",
+        "categoria": "Antibioticos",
+        "imagen": "",
+        "precio": 6500
+    },
+    {
+        "id": 16,
+        "titulo": "Novozitron",
+        "descripcion": "imagen",
+        "categoria": "Antibioticos",
+        "imagen": "",
+        "precio": 6500
+    },
+    {
+        "id": 17,
+        "titulo": "Novozitron",
+        "descripcion": "imagen",
+        "categoria": "Antibioticos",
+        "imagen": "",
+        "precio": 6500
+    },
+    {
+        "id": 18,
+        "titulo": "Novozitron",
+        "descripcion": "imagen",
+        "categoria": "Antibioticos",
+        "imagen": "",
         "precio": 6500
     }
+
 
 
 ]
