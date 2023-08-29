@@ -3,8 +3,8 @@
         "id": 1,
         "titulo": "Optamox duo 1g",
         "descripcion": "imagen",
-        "categoria": "Antibioticos",
-        "imagen": "./assets/img/01.jpg",
+        "categoria": "antibioticos",
+        "imagen": "/assets/img/01/01.jpg",
         "precio": 4600
     },
     
@@ -12,7 +12,7 @@
         "id": 2,
         "titulo": "Optamox duo ",
         "descripcion": "imagen",
-        "categoria": "Antibioticos",
+        "categoria": "antibioticos",
         "imagen": "",
         "precio": 3100
     },
@@ -20,7 +20,7 @@
         "id": 3,
         "titulo": "Acemuk 600",
         "descripcion": "imagen",
-        "categoria": "mucoliticos",
+        "categoria": "antialergicos",
         "imagen": "",
         "precio": 3500
     },
@@ -28,7 +28,7 @@
         "id": 4,
         "titulo": "Qura plus",
         "descripcion": "imagen",
-        "categoria": "Antigripal",
+        "categoria": "antialergicos",
         "imagen": "",
         "precio": 1500
     },
@@ -36,7 +36,7 @@
         "id": 5,
         "titulo": "Actron 400",
         "descripcion": "imagen",
-        "categoria": "Analgesicos",
+        "categoria": "analgesicos",
         "imagen": "",
         "precio": 899
     },
@@ -44,7 +44,7 @@
         "id": 6,
         "titulo": "Actron 600",
         "descripcion": "imagen",
-        "categoria": "Analgesicos",
+        "categoria": "analgesicos",
         "imagen": "",
         "precio": 1200
     },
@@ -52,7 +52,7 @@
         "id": 7,
         "titulo": "Tavinex Compuesto",
         "descripcion": "imagen",
-        "categoria": "Antigripal",
+        "categoria": "antialergicos",
         "imagen": "",
         "precio": 1400
     },
@@ -60,7 +60,7 @@
         "id": 8,
         "titulo": "Novozitron",
         "descripcion": "imagen",
-        "categoria": "Antibioticos",
+        "categoria": "antibioticos",
         "imagen": "",
         "precio": 6500
     },
@@ -68,7 +68,7 @@
         "id": 9,
         "titulo": "Optamox duo 1g",
         "descripcion": "imagen",
-        "categoria": "Antibioticos",
+        "categoria": "antibioticos",
         "imagen": "",
         "precio": 4600
     },
@@ -79,7 +79,7 @@
         "id": 10,
         "titulo": "Novozitron",
         "descripcion": "imagen",
-        "categoria": "Antibioticos",
+        "categoria": "antibioticos",
         "imagen": "",
         "precio": 6500
     },
@@ -87,7 +87,7 @@
         "id": 11,
         "titulo": "Novozitron",
         "descripcion": "imagen",
-        "categoria": "Antibioticos",
+        "categoria": "antibioticos",
         "imagen": "",
         "precio": 6500
     },
@@ -95,7 +95,7 @@
         "id": 12,
         "titulo": "Novozitron",
         "descripcion": "imagen",
-        "categoria": "Antibioticos",
+        "categoria": "antibioticos",
         "imagen": "",
         "precio": 6500
     },
@@ -103,7 +103,7 @@
         "id": 13,
         "titulo": "Novozitron",
         "descripcion": "imagen",
-        "categoria": "Antibioticos",
+        "categoria": "antibioticos",
         "imagen": "",
         "precio": 6500
     },
@@ -111,7 +111,7 @@
         "id": 14,
         "titulo": "Novozitron",
         "descripcion": "imagen",
-        "categoria": "Antibioticos",
+        "categoria": "antibioticos",
         "imagen": "",
         "precio": 6500
     },
@@ -119,7 +119,7 @@
         "id": 15,
         "titulo": "Novozitron",
         "descripcion": "imagen",
-        "categoria": "Antibioticos",
+        "categoria": "antibioticos",
         "imagen": "",
         "precio": 6500
     },
@@ -127,7 +127,7 @@
         "id": 16,
         "titulo": "Novozitron",
         "descripcion": "imagen",
-        "categoria": "Antibioticos",
+        "categoria": "antibioticos",
         "imagen": "",
         "precio": 6500
     },
@@ -135,7 +135,7 @@
         "id": 17,
         "titulo": "Novozitron",
         "descripcion": "imagen",
-        "categoria": "Antibioticos",
+        "categoria": "antibioticos",
         "imagen": "",
         "precio": 6500
     },
@@ -143,7 +143,7 @@
         "id": 18,
         "titulo": "Novozitron",
         "descripcion": "imagen",
-        "categoria": "Antibioticos",
+        "categoria": "antibioticos",
         "imagen": "",
         "precio": 6500
     }

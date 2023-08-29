@@ -7,7 +7,7 @@ function Item({ producto }) {
             <p>Precio: ${producto.precio}</p>
             <p>Categoria: {producto.categoria}</p>
             <p>{producto.descripcion}</p>
-            <a className="ver-mas" href={`/item/${producto.id}`}>Ver detalle</a>
+            <a className="ver-mas" href={`/item/${producto.id}`}> Ver detalle</a>
 
         </div>
     )
