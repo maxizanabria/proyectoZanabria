@@ -21,7 +21,7 @@ const ItemListConteiner = () => {
             
             
         })
-    })
+    } ,  ) 
     
   return (
     <div>
