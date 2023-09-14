@@ -78,4 +78,8 @@ button:focus-visible {
   }
 }
 
+.producto .ver-mas:hover {
+  background-color: black;
+  color: white;
+}
 

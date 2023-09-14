@@ -4,12 +4,14 @@
   box-sizing: border-box;
   font-family: sans-serif;
 }
+
 .menu {
   list-style-type: none;
   display: flex;
   align-items: center;
   gap: 1rem;
 }
+
 
 .navbar {
   list-style-type: none;
@@ -31,7 +33,7 @@
 .productos {
   display: grid;
   color: black;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
   padding-block: 2rem;
   background-color: rgb(162, 212, 164);

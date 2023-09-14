@@ -8,7 +8,8 @@ function Item({ producto }) {
             <p>Precio: ${producto.precio}</p>
             <p>Categoria: {producto.categoria}</p>
             <p>{producto.descripcion}</p>
-            <Link className='ver-mas' to={`/item/${producto.id}`}> Ver detalle </Link>
+            <img src={producto.imagen} alt={producto.titulo} />
+            <Link className='ver-mas' to={`/item/${producto.id}`}> Detalle </Link>
 
         </div>
     )
