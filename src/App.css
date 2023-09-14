@@ -46,5 +46,21 @@
   flex-direction: column;
   border-radius: 1rem;
   overflow: hidden;
+  justify-items: center;
+  align-items: center;
 }
 
+.producto > img {
+  justify-content: center;
+  width: 50%;
+  aspect-ratio: 2/1;
+  object-fit: cover;
+  justify-items: center;
+}
+.producto-detalle {
+  padding-block: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 2rem;
+  justify-items: center;
+}
