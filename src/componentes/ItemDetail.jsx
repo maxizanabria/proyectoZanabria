@@ -18,7 +18,7 @@ const ItemDetail = ( { item } ) => {
     cantidad > 1 && setCantidad(cantidad - 1)
   }
   const handleSumar = () => {
-    cantidad < item.stock && setCantidad(cantidad + 1)
+    setCantidad(cantidad + 1)
   }
 
 
@@ -39,7 +39,13 @@ const ItemDetail = ( { item } ) => {
           cantidad={cantidad} 
           handleSumar={handleSumar} 
           handleRestar={handleRestar} 
-          handleAgregar={() => {agregarAlCarrito(item, cantidad) }} 
+          handleAgregar={ ( ) => {agregarAlCarrito(item, cantidad, Swal.fire({
+            position: 'top-center',
+            icon: 'success',
+            title: 'Se agrego correctamente al carrito!',
+            showConfirmButton: false,
+            timer: 1900
+          })) } } 
           />
         </div>
 

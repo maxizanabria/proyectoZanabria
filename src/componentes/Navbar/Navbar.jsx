@@ -7,11 +7,11 @@ const Navbar = () => {
   return (
    <nav className='navbar'>
     <Link to="/" className='logo' ><h1> Farmax </h1> </Link>
-    <button><li className='list'><Link className="menu-link" to="/nosotros" > Nosotros</Link> </li></button>
-    <button><li className='list'><Link className="menu-link" to="/productos" > Productos </Link></li></button>
-    <button><li className='list'><Link className="menu-link" to="/productos/antibioticos" > Antibioticos </Link></li></button>
-    <button><li className='list'><Link className="menu-link" to="/productos/antialergicos" > Antialergicos </Link></li></button>
-    <button><li className='list'><Link className="menu-link" to="/productos/analgesicos" > Analgesicos </Link></li></button>
+    <li className='list'><Link className="menu-link" to="/nosotros" > Nosotros</Link> </li>
+    <li className='list'><Link className="menu-link" to="/productos" > Productos </Link></li>
+    <li className='list'><Link className="menu-link" to="/productos/antibioticos" > Antibioticos </Link></li>
+    <li className='list'><Link className="menu-link" to="/productos/antialergicos" > Antialergicos </Link></li>
+    <li className='list'><Link className="menu-link" to="/productos/analgesicos" > Analgesicos </Link></li>
     <button className='menu-link'><li><CartWidget/></li></button>
     
    </nav>

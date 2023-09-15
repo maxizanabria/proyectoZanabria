@@ -1,5 +1,5 @@
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Prompt', sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
@@ -16,7 +16,7 @@
 
 a {
   font-weight: 500;
-  color: #029c6952;
+  
   text-decoration: inherit;
 
 }
@@ -30,20 +30,17 @@ body {
   margin: 0;
   min-width: 320px;
   min-height: 100vh;
-  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Helvetica, Arial, sans-serif; 
+
 }
-
-
-
-
-
 
 
 
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+  color: #008000;
 }
+
 
 button {
   border-radius: 8px;
@@ -52,20 +49,15 @@ button {
   font-size: 1em;
   font-weight: 400;
   font-family: inherit;
-  background-color: #59dfb28a;
+  background-color: rgba(27, 182, 27, 0.116);
   cursor: pointer;
   transition: border-color 0.25s;
 }
 button:hover {
-  border-color: #078a1265;
+  border-color: black;
   border-radius: 50px;
   
 }
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-}
-
 
 .ver-mas {
   padding: 10px;
@@ -92,3 +84,18 @@ button:focus-visible {
   color: white;
 }
 
+.container {
+  max-width: 1140px;
+  padding-inline: 1.5rem;
+  margin: 0 auto;
+  
+}
+
+
+.detailHome {
+  padding-top: 100px;
+  color: green;
+  background-color: rgba(128, 128, 128, 0.247);
+  font-family: 'Prompt', sans-serif;
+  
+}
