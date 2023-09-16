@@ -12,14 +12,14 @@ const Carrito = () => {
 
   return (
     <div className='container'>
-      <h2 className='main-tittle'> Carrito </h2>
+      <h2 className='main-tittle'> Mi compra </h2>
 
       {
         carrito.map((prod) => (
             <div key={prod.id}>
             <br />
             <h3>{prod.titulo}</h3>
-            <img className='efectImg'src={prod.imagen} alt={prod.titulo} />
+            <img src={prod.imagen} alt={prod.titulo} />
             <br />
             <p>Precio Unit: ${prod.precio}</p>
             <p>Precio Total: ${prod.precio * prod.cantidad}</p>
@@ -37,7 +37,9 @@ const Carrito = () => {
       <button className='buttonCart' > Confirmar Compra </button>
       <button className='buttonCart'> <Link to="/productos" > Volver a la tienda  </Link></button>
       </> :
-      <h2>El carrito esta vacio !</h2>
+      <h2>No hay pedidos por el momento ! vuelve a la tienda </h2>
+      
+      
       }
     </div>
   )

@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 const Nosotros = () => {
   return (
     <div className='container'>
@@ -8,6 +9,7 @@ const Nosotros = () => {
       <h2> Nuestra empresa</h2>
       
       </div>
+  
 
 
       <div className='detailHome'>

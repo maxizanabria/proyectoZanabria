@@ -1,10 +1,11 @@
 :root {
-  font-family: 'Prompt', sans-serif;
+  font-family: 'Kanit', sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
   color-scheme: light dark;
   color: rgba(29, 29, 29, 0.87);
+  
   background-color: white;
 
   font-synthesis: none;
@@ -15,8 +16,7 @@
 }
 
 a {
-  font-weight: 500;
-  
+  font-weight: 500; 
   text-decoration: inherit;
 
 }
@@ -45,8 +45,7 @@ h1 {
 button {
   border-radius: 8px;
   border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
+  font-size: 1rem;
   font-weight: 400;
   font-family: inherit;
   background-color: rgba(27, 182, 27, 0.116);
@@ -87,8 +86,13 @@ button:hover {
 .container {
   max-width: 1140px;
   padding-inline: 1.5rem;
-  margin: 0 auto;
-  
+  margin: 0 auto; 
+  display: grid;
+  color: black;
+  gap: 2rem;
+  padding-block: 2rem;
+  background-color: rgb(162, 212, 164);
+  background: linear-gradient(90deg,rgb(154, 218, 159) 26%, rgba(13, 156, 96, 0.219) 54%, rgba(98, 202, 103, 0.253) 80%);
 }
 
 
@@ -98,4 +102,12 @@ button:hover {
   background-color: rgba(128, 128, 128, 0.247);
   font-family: 'Prompt', sans-serif;
   
+}
+
+.buttonCount {
+  padding: 15px;
+  color: black;
+  border: 1px solid transparent;
+  
+
 }

@@ -8,9 +8,9 @@ const ItemCount = ( {cantidad, handleSumar, handleRestar, handleAgregar} ) => {
 
     <div>
         <div className='item-count'>
-            <button onClick={handleRestar}>-</button>
+            <button className='buttonCount' onClick={handleRestar}>-</button>
             <p>{cantidad}</p>
-            <button onClick={handleSumar}>+</button>
+            <button className='buttonCount' onClick={handleSumar}>+</button>
         </div>
         <button className='agregar-al-carrito' onClick={handleAgregar}> Agregar al carrito </button>
      

@@ -6,13 +6,13 @@ import CartWidget from '../CartWidget'
 const Navbar = () => {
   return (
    <nav className='navbar'>
-    <Link to="/" className='logo' ><h1> Farmax </h1> </Link>
+    <Link to="/" className='logo' ><img src="./" alt="" /> </Link>
     <li className='list'><Link className="menu-link" to="/nosotros" > Nosotros</Link> </li>
     <li className='list'><Link className="menu-link" to="/productos" > Productos </Link></li>
     <li className='list'><Link className="menu-link" to="/productos/antibioticos" > Antibioticos </Link></li>
     <li className='list'><Link className="menu-link" to="/productos/antialergicos" > Antialergicos </Link></li>
     <li className='list'><Link className="menu-link" to="/productos/analgesicos" > Analgesicos </Link></li>
-    <button className='menu-link'><li><CartWidget/></li></button>
+    <li><CartWidget/></li>
     
    </nav>
   )
