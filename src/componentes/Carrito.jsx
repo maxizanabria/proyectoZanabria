@@ -37,7 +37,9 @@ const Carrito = () => {
       <button className='buttonCart' > Confirmar Compra </button>
       <button className='buttonCart'> <Link to="/productos" > Volver a la tienda  </Link></button>
       </> :
+   
       <h2>No hay pedidos por el momento ! vuelve a la tienda </h2>
+      
       
       
       }
