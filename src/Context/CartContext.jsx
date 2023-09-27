@@ -15,11 +15,11 @@ export const CartProvider = ({children}) => {
 
         const nuevoCarrito = [...carrito];
 
-        const estaEnElCarrito = nuevoCarrito.find((producto) => producto.id === itemAgregado.id);
+        const index = nuevoCarrito.findIndex((producto) => producto.id === itemAgregado.id);
 
 
-        if (estaEnElCarrito) {
-            estaEnElCarrito.cantidad + cantidad;
+        if (index !== -1) {
+            nuevoCarrito[index].cantidad += cantidad;
 
         } else {
             nuevoCarrito.push(itemAgregado);

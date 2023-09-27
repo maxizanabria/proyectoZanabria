@@ -29,7 +29,7 @@ function App() {
             <Navbar />
 
             <Routes>
-              <Route path="/" element={<ItemListConteiner />} />
+              <Route path="/" element={<Nosotros />} />
               <Route path="/item/:id" element={<ItemDetailContainer />} />
               <Route path="/productos" element={<ItemListConteiner />} />
               <Route path="/productos/:categoria" element={<ItemListConteiner />} />

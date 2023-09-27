@@ -1,13 +1,15 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import CartWidget from '../CartWidget'
-
+import logofarmax from '../imagenes/logo.png'
 
 const Navbar = () => {
   return (
    <nav className='navbar'>
 
-    
+    <a className='logo' href="/">
+      <img src={logofarmax} alt="logo" />
+    </a>
     <li className='list'><Link className="menu-link" to="/nosotros" > Nosotros</Link> </li>
     <li className='list'><Link className="menu-link" to="/productos" > Productos </Link></li>
     <li className='list'><Link className="menu-link" to="/productos/antibioticos" > Antibioticos </Link></li>

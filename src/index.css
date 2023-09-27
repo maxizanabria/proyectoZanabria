@@ -4,10 +4,9 @@
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgba(29, 29, 29, 0.87);
+  color: white;
+  background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(255,209,67,1) 0%, rgba(255,145,83,1) 90% );
   
-  background-color: white;
-
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -18,7 +17,7 @@
 a {
   font-weight: 500; 
   text-decoration: inherit;
-
+  
 }
 
 
@@ -32,8 +31,6 @@ body {
   min-height: 100vh;
 
 }
-
-
 
 h1 {
   font-size: 3.2em;
