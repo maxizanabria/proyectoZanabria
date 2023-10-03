@@ -12,6 +12,8 @@ const Carrito = () => {
     }
     
 
+
+
   return (
     <div className='container'>
       <h2 className='main-tittle'> Mi compra </h2>
@@ -28,7 +30,7 @@ const Carrito = () => {
             <p>Precio Unit: ${prod.precio}</p>
             <p>Precio Total: ${prod.precio * prod.cantidad}</p>
             <p>Cant: {prod.cantidad}</p>
-            <button onClick={handleVaciar} className='buttonCart'> Eliminar de mi compra </button>
+            <button className='buttonCart'> Eliminar de mi compra </button>
             
             <br />
             </div>

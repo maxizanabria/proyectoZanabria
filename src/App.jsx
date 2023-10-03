@@ -6,6 +6,9 @@ import ItemDetailContainer from './componentes/itemDetailContainer';
 import { CartProvider } from './Context/CartContext';
 import Carrito from './componentes/Carrito';
 import Nosotros from './componentes/Nosotros';
+import Checkout from './componentes/checkout';
+import Contacto from './componentes/Contacto';
+
 
 
 
@@ -34,6 +37,8 @@ function App() {
               <Route path="/productos/:categoria" element={<ItemListConteiner />} />
               <Route path="/nosotros" element={<Nosotros />} />
               <Route path="/carrito" element={<Carrito />} />
+              <Route path="/checkout" element={<Checkout />} />
+              <Route path="/contacto" element={<Contacto />} />
 
               
             </Routes>
