@@ -29,6 +29,7 @@ const Carrito = () => {
             <p>Precio Total: ${prod.precio * prod.cantidad}</p>
             <p>Cant: {prod.cantidad}</p>
             <button onClick={handleVaciar} className='buttonCart'> Eliminar de mi compra </button>
+            
             <br />
             </div>
           </div>  
@@ -40,11 +41,11 @@ const Carrito = () => {
       <>
       <h2>Precio total: ${precioTotal()}</h2>
       <button onClick={handleVaciar} className='buttonCart'> Vaciar Carrito </button>
-      <button className='buttonCart' > Confirmar Compra </button>
+      <button className='buttonCart' > <Link to="/checkout"> Finalizar Compra  </Link> </button>
       <button className='buttonCart'> <Link to="/productos" > Volver a la tienda  </Link></button>
       </> :
    
-      <h2>No hay pedidos por el momento ! vuelve a la tienda </h2>
+      <h2>No hay pedidos por el momento ! <Link to="/productos" > Vuelve a revisar la tienda</Link></h2>
       
       
       

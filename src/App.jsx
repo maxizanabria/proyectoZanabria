@@ -1,12 +1,11 @@
-
 import './App.css';
 import ItemListConteiner from './componentes/ItemListContainer';
 import Navbar from './componentes/Navbar/Navbar';
-import Nosotros from './componentes/Nosotros';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import ItemDetailContainer from './componentes/itemDetailContainer';
 import { CartProvider } from './Context/CartContext';
 import Carrito from './componentes/Carrito';
+import Nosotros from './componentes/Nosotros';
 
 
 
@@ -47,7 +46,6 @@ function App() {
     </>
   )
 }
-
 
 
 export default App

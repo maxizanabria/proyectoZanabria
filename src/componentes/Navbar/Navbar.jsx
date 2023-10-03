@@ -7,10 +7,10 @@ const Navbar = () => {
   return (
    <nav className='navbar'>
 
-    <a className='logo' href="/">
+    <li className='logo' href="/">
       <img src={logofarmax} alt="logo" />
-    </a>
-    <li className='list'><Link className="menu-link" to="/nosotros" > Nosotros</Link> </li>
+    </li>
+    <li className='list'><Link className="menu-link" to="/Contacto" > Contacto </Link> </li>
     <li className='list'><Link className="menu-link" to="/productos" > Productos </Link></li>
     <li className='list'><Link className="menu-link" to="/productos/antibioticos" > Antibioticos </Link></li>
     <li className='list'><Link className="menu-link" to="/productos/antialergicos" > Antialergicos </Link></li>
